@@ -4,9 +4,9 @@ import (
 	"bytes"
 
 	"github.com/nelsam/gorp"
-	"gopkg.in/nelsam/gorpqueries.v0/filters"
-	"gopkg.in/nelsam/gorpqueries.v0/interfaces"
-	"gopkg.in/nelsam/gorpqueries.v0/queryplans"
+	"github.com/nelsam/gorpqueries/filters"
+	"github.com/nelsam/gorpqueries/interfaces"
+	"github.com/nelsam/gorpqueries/queryplans"
 )
 
 type pgJsonSelectWrapper struct {

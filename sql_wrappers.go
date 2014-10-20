@@ -2,7 +2,7 @@ package gorpqueries
 
 import (
 	"fmt"
-	"gopkg.in/nelsam/gorpqueries.v0/filters"
+	"github.com/nelsam/gorpqueries/filters"
 )
 
 type functionWrapper struct {

@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/nelsam/gorp"
-	"gopkg.in/nelsam/gorpqueries.v0/dialects"
-	"gopkg.in/nelsam/gorpqueries.v0/filters"
-	"gopkg.in/nelsam/gorpqueries.v0/interfaces"
+	"github.com/nelsam/gorpqueries/dialects"
+	"github.com/nelsam/gorpqueries/filters"
+	"github.com/nelsam/gorpqueries/interfaces"
 )
 
 type fieldColumnMap struct {

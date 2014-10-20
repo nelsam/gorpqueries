@@ -7,8 +7,8 @@ import (
 
 	"github.com/nelsam/gorp"
 	_ "github.com/mattn/go-sqlite3"
-	"gopkg.in/nelsam/gorpqueries.v0/interfaces"
-	"gopkg.in/nelsam/gorpqueries.v0/queryplans"
+	"github.com/nelsam/gorpqueries/interfaces"
+	"github.com/nelsam/gorpqueries/queryplans"
 	"github.com/stretchr/testify/suite"
 )
 
